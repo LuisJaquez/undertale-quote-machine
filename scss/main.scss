@@ -1,8 +1,10 @@
 //Variables
 $black: #030303;
-
+$yellow: #FFE480;
+$orange: #DE541E;
 a {
-  text-decoration:none; 
+  text-decoration:none;
+  color: $orange;
 }
 
 body {
