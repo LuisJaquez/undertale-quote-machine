@@ -90,3 +90,14 @@ body {
     color: $black;
   }
 }
+
+/*Hp numeric styles*/
+.hp-numeric {
+  &::before {
+    content: "KR";
+    position: relative;
+    top: -3px;
+    left: -8px;
+    font-size: 9px;
+  }
+}
