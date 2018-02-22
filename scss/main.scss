@@ -71,7 +71,7 @@ body {
   height: 26px;
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
 }
 
 /*Hp bar styles*/
@@ -81,6 +81,7 @@ body {
   height: 100%;
   border: 1px solid $yellow;
   padding: 0 80px;
+  margin-left: 50px;
   &::before {
     content: "HP";
     position: relative;
@@ -93,6 +94,7 @@ body {
 
 /*Hp numeric styles*/
 .hp-numeric {
+  padding-left: 17px;
   &::before {
     content: "KR";
     position: relative;
