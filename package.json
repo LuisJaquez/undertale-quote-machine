@@ -1,0 +1,19 @@
+{
+  "name": "undertale-quote-machine",
+  "version": "1.0.0",
+  "description": "Undertale Random Quote machine",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LuisJaquez/undertale-quote-machine.git"
+  },
+  "author": "@LuisMJaquez",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/LuisJaquez/undertale-quote-machine/issues"
+  },
+  "homepage": "https://github.com/LuisJaquez/undertale-quote-machine#readme"
+}
