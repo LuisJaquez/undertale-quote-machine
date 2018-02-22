@@ -1,23 +1,27 @@
-//Variables
-$black: #030303;
-$yellow: #FFE480;
-$orange: #DE541E;
+/*General styles*/
 a {
-  text-decoration:none;
+  text-decoration: none;
   color: $orange;
 }
 
 body {
-  background-color: $black; 
+  background-color: $black;
 }
-/*box styles*/
+
+//Variables
+$black: #030303;
+$yellow: #ffe480;
+$orange: #de541e;
+
+/*Box styles*/
 .box {
   position: relative;
-  width: 490px;
+  width: 600px;
   height: 445px;
   display: flex;
+  justify-content: flex-end;
   flex-direction: column;
-  font-family: 'Press Start 2P', cursive;
+  font-family: "Press Start 2P", cursive;
   background-color: whitesmoke;
   margin: auto;
   margin-top: 8%;
@@ -25,12 +29,22 @@ body {
   overflow: hidden;
 }
 
-.buttons {
-  border: 2px solid $orange;
-  width: 105px;
-  padding: 10px;
-  height: 60px;
-  cursor: pointer;
-  font-weight: bold;
+/*ACTION BUTTONS SECTION*/
+.action-buttons {
+  width: 100%;
+  height: 59px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 
+/*buttons styles*/
+.buttons {
+  border: 2px solid $orange;
+  width: 100px;
+  padding: 8px;
+  height: 20px;
+  text-align: center;
+  cursor: pointer;
+  font-weight: 700;
+}
