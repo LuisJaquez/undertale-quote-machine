@@ -1,8 +1,9 @@
 //Variables
 $black: #030303;
-$yellow: #ffe480;
-$orange: #de541e; /*General styles*/
+$yellow: #f3db03f1;
+$orange: #de541e;
 
+/*General styles*/
 a {
   text-decoration: none;
   color: $orange;
@@ -11,11 +12,6 @@ a {
 body {
   background-color: $black;
 }
-
-//Variables
-$black: #030303;
-$yellow: #f3db03f1;
-$orange: #de541e;
 
 /*Box styles*/
 .box {
