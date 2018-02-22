@@ -73,3 +73,20 @@ body {
   align-items: center;
   justify-content: space-around;
 }
+
+/*Hp bar styles*/
+.hp-bar {
+  background-color: $yellow;
+  width: 160px;
+  height: 100%;
+  border: 1px solid $yellow;
+  padding: 0 80px;
+  &::before {
+    content: "HP";
+    position: relative;
+    top: -3px;
+    font-size: 9px;
+    right: 105px;
+    color: $black;
+  }
+}
