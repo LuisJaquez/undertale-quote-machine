@@ -1,12 +1,6 @@
 //Variables
 $black: #030303;
 
-/*8-Bits Font*/
-@font-face {
-  font-family: bits-family;
-  src: url(fonts/8-Bit-Madness.ttf) format("truetype");
-}
-
 body {
   background-color: $black; 
 }
