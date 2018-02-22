@@ -1,4 +1,8 @@
-/*General styles*/
+//Variables
+$black: #030303;
+$yellow: #ffe480;
+$orange: #de541e; /*General styles*/
+
 a {
   text-decoration: none;
   color: $orange;
@@ -10,7 +14,7 @@ body {
 
 //Variables
 $black: #030303;
-$yellow: #ffe480;
+$yellow: #f3db03f1;
 $orange: #de541e;
 
 /*Box styles*/
@@ -47,4 +51,9 @@ $orange: #de541e;
   text-align: center;
   cursor: pointer;
   font-weight: 700;
+  transition: all 0.5s ease;
+  &:hover {
+    border-color: $yellow;
+    color: $yellow;
+  }
 }
