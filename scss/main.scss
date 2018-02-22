@@ -10,7 +10,11 @@ a {
 }
 
 body {
-  background-color: $black;
+  background-color: #423e3e;
+}
+
+p {
+  color: whitesmoke;
 }
 
 /*Box styles*/
@@ -22,7 +26,7 @@ body {
   justify-content: flex-end;
   flex-direction: column;
   font-family: "Press Start 2P", cursive;
-  background-color: whitesmoke;
+  background-color: $black;
   margin: auto;
   margin-top: 8%;
   box-shadow: 1px -1px 15px -1px rgba(0, 0, 0, 0.5);
@@ -88,7 +92,7 @@ body {
     top: -3px;
     font-size: 9px;
     right: 105px;
-    color: $black;
+    color: whitesmoke;
   }
 }
 
