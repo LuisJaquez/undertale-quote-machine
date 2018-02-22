@@ -56,4 +56,15 @@ $orange: #de541e;
     border-color: $yellow;
     color: $yellow;
   }
+
+  &:hover::before {
+    font-family: FontAwesome;
+    content: "\f004";
+    position: relative;
+    width: 100%;
+    height: 100%;
+    top: -3px;
+    right: 6px;
+    color: red;
+  }
 }
