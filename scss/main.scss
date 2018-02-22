@@ -1,16 +1,23 @@
+//Variables
+$black: #030303;
+
 /*8-Bits Font*/
 @font-face {
   font-family: bits-family;
   src: url(fonts/8-Bit-Madness.ttf) format("truetype");
 }
 
+body {
+  background-color: $black; 
+}
 /*box styles*/
 .box {
   position: relative;
-  width: 460px;
+  width: 490px;
   height: 445px;
   display: flex;
   flex-direction: column;
+  background-color: whitesmoke;
   margin: auto;
   margin-top: 8%;
   box-shadow: 1px -1px 15px -1px rgba(0, 0, 0, 0.5);
