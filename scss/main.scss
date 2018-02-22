@@ -8,3 +8,16 @@
   font-family: bits-family;
   src: url(fonts/8-Bit-Madness.ttf) format("truetype");
 }
+
+/*box styles*/
+.box {
+  position: relative;
+  width: 560;
+  height: 560;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  margin-top: 8%;
+  box-shadow: 1px -1px 15px -1px rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+}
