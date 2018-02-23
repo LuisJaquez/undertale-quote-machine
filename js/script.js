@@ -6,7 +6,7 @@ var p = document.createElement("p");
 p.setAttribute("class", "quote-style");
 app.appendChild(p);
 
-var sans = document.getElementById('sans-body');
+var sans = document.getElementById("sans-body");
 
 //Selecting buttons
 var buttonQuote = document.getElementById("quote-btn");
@@ -52,7 +52,6 @@ getQuote();
 function miss() {
   sans.classList.toggle("sans-move");
 }
-
 
 //Events lisnteners
 buttonQuote.addEventListener("click", getQuote);
