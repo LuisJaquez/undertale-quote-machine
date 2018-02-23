@@ -20,9 +20,9 @@ request.onload = function() {
   var data = JSON.parse(this.response);
 
   if (request.status >= 200 && request.status < 400) {
-    console.log("Hey!!!");
+    p.textContent = data.quote;
   } else {
-    console.log("Error");
+    p.textContent = "Flowey it's the responsable :[";
   }
 };
 
