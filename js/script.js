@@ -10,6 +10,7 @@ var buttonQuote = document.getElementById("quote-btn");
 //Request variable
 var request = new XMLHttpRequest();
 
+//Set the API endpoint
 request.open(
   "GET",
   "https://random-quote-generator.herokuapp.com/api/quotes/random"
