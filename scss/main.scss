@@ -114,8 +114,13 @@ p {
   border: 5px solid whitesmoke;
   width: 93%;
   height: 125px;
-  margin: 0 auto;
+  align-self: center;
   margin-bottom: 5px;
 }
 
 /*SANS SECTION*/
+.sans {
+  width: 100px;
+  height: 100px;
+  background-color: whitesmoke;
+}
