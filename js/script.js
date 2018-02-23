@@ -12,17 +12,14 @@ var request = new XMLHttpRequest();
 
 request.open(
   "GET",
-  "https://api.icndb.com/jokes/random?exclude=[explicit]"
+  "https://random-quote-generator.herokuapp.com/api/quotes/random"
 );
-
-request.withCredentials = true;
-
 
 request.onload = function() {
   var data = JSON.parse(this.response);
 
   if (request.status >= 200 && request.status < 400) {
-    console.log(quoteText);
+    console.log("Hey!!!");
   } else {
     console.log("Error");
   }
