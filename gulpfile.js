@@ -39,7 +39,7 @@ gulp.task("img", function() {
 //Minify Javascript.
 gulp.task("javascript", function() {
   gulp
-    .src("js/*.js")
+    .src("js/script.js")
     .pipe(uglify())
     .pipe(gulp.dest("app/js"));
 });
