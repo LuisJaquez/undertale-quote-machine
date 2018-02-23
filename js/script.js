@@ -20,7 +20,7 @@ request.onload = function() {
   var data = JSON.parse(this.response);
 
   if (request.status >= 200 && request.status < 400) {
-    p.textContent = data.quote;
+    p.textContent = '\"' + data.quote + '\"' + " - " + data.author;
   } else {
     p.textContent = "Flowey it's the responsable :[";
   }
