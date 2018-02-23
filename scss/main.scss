@@ -17,6 +17,13 @@ p {
   color: whitesmoke;
   margin: 0;
 }
+/* img styles */
+body img {
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+  display: block;
+}
 
 /*Box styles*/
 .box {
@@ -125,5 +132,5 @@ p {
   background-color: whitesmoke;
   align-self: center;
   margin-bottom: 15px;
-  background-image: url("img/sans.jpg");
+  background-image: url("app/img/sans.jpg");
 }
