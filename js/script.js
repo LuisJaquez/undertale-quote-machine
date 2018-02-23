@@ -9,6 +9,8 @@ app.appendChild(p);
 //Selecting buttons
 var buttonQuote = document.getElementById("quote-btn");
 var buttonTweet = document.getElementById("tweet-btn");
+var buttonFight = document.getElementById("fight-btn");
+
 
 //Get new quotes
 function getQuote() {
@@ -47,3 +49,4 @@ getQuote();
 //Events lisnteners
 buttonQuote.addEventListener("click", getQuote);
 buttonTweet.addEventListener("click", tweetear);
+buttonFight.addEventListener("click", tweetear);
