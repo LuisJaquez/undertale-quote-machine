@@ -6,11 +6,12 @@ var p = document.createElement("p");
 p.setAttribute("class", "quote-style");
 app.appendChild(p);
 
+var sans = document.getElementById('sans-body');
+
 //Selecting buttons
 var buttonQuote = document.getElementById("quote-btn");
 var buttonTweet = document.getElementById("tweet-btn");
 var buttonFight = document.getElementById("fight-btn");
-
 
 //Get new quotes
 function getQuote() {
@@ -46,7 +47,14 @@ function tweetear() {
 
 //To get the initial quote
 getQuote();
+
+//Animations events
+function miss() {
+  sans.classList.toggle("sans-move");
+}
+
+
 //Events lisnteners
 buttonQuote.addEventListener("click", getQuote);
 buttonTweet.addEventListener("click", tweetear);
-buttonFight.addEventListener("click", tweetear);
+buttonFight.addEventListener("click", miss);

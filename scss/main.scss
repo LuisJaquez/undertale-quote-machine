@@ -139,7 +139,7 @@ body img {
 .quote-style {
   font-size: 15px;
   line-height: 1.2;
-  margin: 10px 0 0 17px;;
+  margin: 10px 0 0 17px;
   &::before {
     content: "*";
     position: relative;
@@ -149,6 +149,18 @@ body img {
 
 /*Animation styles*/
 .sans-move {
-  transform: translate(-200px);
   transition: all 0.5s ease;
+  animation: miss 1.5s ease-in-out;
+}
+
+@keyframes miss {
+  0% {
+    transform: translate(0);
+  }
+  50% {
+    transform: translate(-200px);
+  }
+  100% {
+    transform: translate(0);
+  }
 }
