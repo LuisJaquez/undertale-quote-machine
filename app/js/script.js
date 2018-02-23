@@ -1,0 +1,1 @@
+var app=document.getElementById("quote-section"),blockquote=document.createElement("blockquote");blockquote.setAttribute("class","quote-style"),app.appendChild(blockquote);
