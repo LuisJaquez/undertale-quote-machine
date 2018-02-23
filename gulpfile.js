@@ -4,6 +4,7 @@ var browserSync = require("browser-sync").create();
 var sass = require("gulp-sass");
 var uglify = require("gulp-uglify");
 var cssnano = require("gulp-cssnano");
+var imagemin = require("gulp-imagemin");
 var autoprefixer = require("gulp-autoprefixer");
 var htmlmin = require("gulp-htmlmin");
 
@@ -25,6 +26,14 @@ gulp.task("html", function() {
     .src("./*.html")
     .pipe(htmlmin({ collapseWhitespace: true }))
     .pipe(gulp.dest("app"));
+});
+
+//Optimize images.
+gulp.task("img", function() {
+  gulp
+    .src("img/*")
+    .pipe(imagemin())
+    .pipe(gulp.dest("app/img"));
 });
 
 //Minify Javascript.
