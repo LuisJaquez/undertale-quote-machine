@@ -5,7 +5,10 @@ var p = document.createElement("p");
 
 p.setAttribute("class", "quote-style");
 app.appendChild(p);
+
+//Selecting buttons
 var buttonQuote = document.getElementById("quote-btn");
+var buttonTweet = document.getElementById("tweet-btn");
 
 //Get new quotes
 function getQuote() {
@@ -31,7 +34,16 @@ function getQuote() {
   request.send();
 }
 
+//Tweet the quote
+function tweetear() {
+  window.open(
+    "https://twitter.com/intent/tweet?text=" + p.textContent,
+    "_blank"
+  );
+}
+
 //To get the initial quote
 getQuote();
 //Events lisnteners
 buttonQuote.addEventListener("click", getQuote);
+buttonTweet.addEventListener("click", tweetear);
