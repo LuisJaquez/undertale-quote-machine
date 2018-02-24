@@ -143,6 +143,7 @@ div[class^="gaster-blaster-"] {
   height: 135px;
   background-image: url("../img/gaster-close.png");
   background-size: cover;
+  animation: miss 1.5s ease-in-out;
 }
 
 .gaster-blaster-1 {
