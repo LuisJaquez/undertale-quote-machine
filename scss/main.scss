@@ -141,21 +141,20 @@ div[class^="gaster-blaster-"] {
   position: absolute;
   width: 115px;
   height: 135px;
+  top: -125px;
   background-image: url("../img/gaster-close.png");
   background-size: cover;
-  animation: miss 1.5s ease-in-out;
+  animation: miss 5.5s ease-in-out;
   transition: all 0.5s ease;
 }
 
 .gaster-blaster-1 {
   left: 9px;
-  top: 15px;
   transform: rotate(-36deg);
 }
 
 .gaster-blaster-2 {
   right: 23px;
-  top: 7px;
   transform: rotate(36deg);
 }
 
