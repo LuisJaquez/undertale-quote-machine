@@ -7,6 +7,8 @@ p.setAttribute("class", "quote-style");
 app.appendChild(p);
 
 var sans = document.getElementById("sans-body");
+var gaster1 = document.getElementById('gaster-1');
+var gaster2 = document.getElementById('gaster-2');
 
 //Selecting buttons
 var buttonQuote = document.getElementById("quote-btn");
