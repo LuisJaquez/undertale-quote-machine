@@ -144,6 +144,7 @@ div[class^="gaster-blaster-"] {
   background-image: url("../img/gaster-close.png");
   background-size: cover;
   animation: miss 1.5s ease-in-out;
+  transition: all 0.5s ease;
 }
 
 .gaster-blaster-1 {
