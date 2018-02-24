@@ -6,9 +6,12 @@ var p = document.createElement("p");
 p.setAttribute("class", "quote-style");
 app.appendChild(p);
 
+//Sans body
 var sans = document.getElementById("sans-body");
-var gaster1 = document.getElementById('gaster-1');
-var gaster2 = document.getElementById('gaster-2');
+
+//Blasters elements
+var gaster1 = document.getElementById("gaster-1");
+var gaster2 = document.getElementById("gaster-2");
 
 //Selecting buttons
 var buttonQuote = document.getElementById("quote-btn");
@@ -49,13 +52,21 @@ function tweetear() {
 
 //To get the initial quote
 getQuote();
+shoot();
 
 //Animations events
 function miss() {
   sans.classList.toggle("sans-move");
 }
 
+//Show gaster blasters
+function shoot() {
+  gaster1.classList.toggle("shoot-1");
+  gaster2.classList.toggle("shoot-2");
+}
+
 //Events lisnteners
 buttonQuote.addEventListener("click", getQuote);
+buttonQuote.addEventListener("click", shoot);
 buttonTweet.addEventListener("click", tweetear);
 buttonFight.addEventListener("click", miss);
