@@ -144,17 +144,17 @@ div[class^="gaster-blaster-"] {
   top: -125px;
   background-image: url("../img/gaster-close.png");
   background-size: cover;
-  animation: shoot 2.8s ease-in-out;
-  transition: all 0.5s ease;
   transform: rotate(-222deg);
 }
 
 .gaster-blaster-1 {
   left: 9px;
+  animation: shoot2 1.3s ease-in-out;
 }
 
 .gaster-blaster-2 {
   right: 23px;
+  animation: shoot 1.3s ease-in-out;
 }
 
 /*Quotes styles*/
@@ -188,20 +188,55 @@ div[class^="gaster-blaster-"] {
   }
 }
 /*Gaster blaster animations*/
+
 @keyframes shoot {
   0% {
     top: -222px;
+    transform: rotate(-222deg);
+  }
+  35% {
+    top: 7px;
+    transform: rotate(32deg);
+  }
+  50% {
+    top: 7px;
+  }
+  60% {
+    top: 7px;
+    transform: rotate(32deg);
+  }
+  90% {
+    top: 7px;
+    transform: rotate(32deg);
+  }
+  100% {
+    top: -222px;
+    transform: rotate(32deg);
+  }
+}
+
+@keyframes shoot2 {
+  0% {
+    top: -222px;
+    transform: rotate(-222deg);
   }
   35% {
     top: 15px;
+    transform: rotate(-36deg);
   }
   50% {
     top: 15px;
   }
-  80% {
+  60% {
     top: 15px;
+    transform: rotate(-36deg);
+  }
+  90% {
+    top: 15px;
+    transform: rotate(-36deg);
   }
   100% {
     top: -222px;
+    transform: rotate(-36deg);
   }
 }
