@@ -149,12 +149,10 @@ div[class^="gaster-blaster-"] {
 
 .gaster-blaster-1 {
   left: 9px;
-  animation: shoot2 1.3s ease-in-out;
 }
 
 .gaster-blaster-2 {
   right: 23px;
-  animation: shoot 1.3s ease-in-out;
 }
 
 /*Quotes styles*/
@@ -173,6 +171,14 @@ div[class^="gaster-blaster-"] {
 .sans-move {
   transition: all 0.5s ease;
   animation: miss 1.5s ease-in-out;
+}
+
+.shoot-1 {
+  animation: shoot2 1.3s ease-in-out;
+}
+
+.shoot-2 {
+  animation: shoot 1.3s ease-in-out;
 }
 
 /*ANIMATIONS SECTION*/
