@@ -1,11 +1,14 @@
+/*MOBILE STYLES*/
 @media (max-width: 500px) {
   .box {
     width: 100%;
   }
+
   /*Buttons styles*/
   .quote-style {
     font-size: 1.88vh;
   }
+
   .buttons {
     font-size: 13px;
     display: flex;
@@ -21,17 +24,41 @@
       height: 20px;
     }
   }
+
   .buttons:last-child {
     margin-right: 0;
   }
+
   .action-buttons {
     width: 97%;
     align-self: center;
   }
-  /*sans*/
+
+  /*Sans styles*/
   .sans {
     width: 68px;
     height: 92px;
     margin-bottom: 10px;
+  }
+  /*Stats styles*/
+  .stats {
+    align-items: center;
+    justify-content: center;
+    flex: 0 1 auto;
+    font-size: 9px;
+  }
+  .hp-bar {
+    padding: 0 50px;
+    margin-left: 25px;
+    &::before {
+      top: 0px;
+      font-size: 8px;
+      right: 70px;
+    }
+  }
+  .hp-numeric:before {
+    top: -1px;
+    left: -8px;
+    font-size: 8px;
   }
 }
