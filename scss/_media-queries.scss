@@ -2,8 +2,9 @@
   .box {
     width: 100%;
   }
+  /*Buttons styles*/
   .quote-style {
-    font-size: 2.68vw;
+    font-size: 1.88vh;
   }
   .buttons {
     font-size: 13px;
@@ -20,8 +21,8 @@
       height: 20px;
     }
   }
-  .buttons:last-child{
+  .buttons:last-child {
     margin-right: 0;
   }
-
+  /*Quote box styles*/
 }
