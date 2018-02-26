@@ -24,5 +24,14 @@
   .buttons:last-child {
     margin-right: 0;
   }
-  /*Quote box styles*/
+  .action-buttons {
+    width: 97%;
+    align-self: center;
+  }
+  /*sans*/
+  .sans {
+    width: 68px;
+    height: 92px;
+    margin-bottom: 10px;
+  }
 }
