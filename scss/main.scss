@@ -143,6 +143,7 @@ div[class^="gaster-blaster-"] {
   height: 135px;
   top: -125px;
   background-image: url("../img/gaster-close.png");
+  background-color: transparent;
   background-size: cover;
   transform: rotate(-222deg);
 }
@@ -247,3 +248,5 @@ div[class^="gaster-blaster-"] {
     transform: rotate(-36deg);
   }
 }
+
+@import 'media-queries';
