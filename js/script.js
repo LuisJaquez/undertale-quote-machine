@@ -60,6 +60,7 @@ function miss() {
 }
 
 //Show gaster blasters
+
 function shoot() {
   gaster1.classList.toggle("shoot-1");
   gaster2.classList.toggle("shoot-2");
