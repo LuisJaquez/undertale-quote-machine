@@ -26,7 +26,7 @@ function getQuote() {
   //Set the API endpoint
   request.open(
     "GET",
-    "https://random-quote-generator.herokuapp.com/api/quotes/random"
+    "http://quotes.stormconsultancy.co.uk/random.json"
   );
 
   request.onload = function() {
