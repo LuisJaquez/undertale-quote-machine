@@ -26,14 +26,14 @@ function getQuote() {
   //Set the API endpoint
   request.open(
     "GET",
-    "http://quotes.stormconsultancy.co.uk/random.json"
+    "https://got-quotes.herokuapp.com/quotes"
   );
 
   request.onload = function() {
     var data = JSON.parse(this.response);
 
     if (request.status >= 200 && request.status < 400) {
-      p.textContent = '"' + data.quote + '"' + " - " + data.author;
+      p.textContent = '"' + data.quote + '"' + " - " + data.character;
     } else {
       p.textContent = "Flowey it's the responsable :[";
     }
